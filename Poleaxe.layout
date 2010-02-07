@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="include\base\api.h" open="0" top="0" tabpos="7">
+		<Cursor position="755" topLine="12" />
+	</File>
+	<File name="include\base\object.h" open="0" top="0" tabpos="2">
+		<Cursor position="1352" topLine="0" />
+	</File>
+	<File name="include\base\types.h" open="0" top="0" tabpos="10">
+		<Cursor position="195" topLine="69" />
+	</File>
+	<File name="include\communication\message.h" open="0" top="0" tabpos="10">
+		<Cursor position="1104" topLine="34" />
+	</File>
+	<File name="include\communication\messagehandler.h" open="0" top="0" tabpos="4">
+		<Cursor position="401" topLine="2" />
+	</File>
+	<File name="include\control\control.h" open="0" top="0" tabpos="0">
+		<Cursor position="334" topLine="0" />
+	</File>
+	<File name="include\frame\dialogbox.h" open="0" top="0" tabpos="0">
+		<Cursor position="284" topLine="2" />
+	</File>
+	<File name="include\frame\frame.h" open="0" top="0" tabpos="0">
+		<Cursor position="105" topLine="0" />
+	</File>
+	<File name="include\frame\panel.h" open="0" top="0" tabpos="0">
+		<Cursor position="232" topLine="0" />
+	</File>
+	<File name="include\frame\window.h" open="0" top="0" tabpos="5">
+		<Cursor position="296" topLine="57" />
+	</File>
+	<File name="include\graphics\allegro.h" open="0" top="0" tabpos="12">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="include\graphics\bitmap.h" open="0" top="0" tabpos="3">
+		<Cursor position="171" topLine="0" />
+	</File>
+	<File name="include\graphics\color.h" open="0" top="0" tabpos="0">
+		<Cursor position="498" topLine="3" />
+	</File>
+	<File name="include\graphics\display.h" open="0" top="0" tabpos="10">
+		<Cursor position="615" topLine="43" />
+	</File>
+	<File name="include\graphics\surface.h" open="0" top="0" tabpos="7">
+		<Cursor position="1624" topLine="42" />
+	</File>
+	<File name="include\input\keyboard.h" open="0" top="0" tabpos="11">
+		<Cursor position="315" topLine="66" />
+	</File>
+	<File name="include\input\mouse.h" open="0" top="0" tabpos="4">
+		<Cursor position="1900" topLine="48" />
+	</File>
+	<File name="include\math\constants.h" open="0" top="0" tabpos="6">
+		<Cursor position="447" topLine="0" />
+	</File>
+	<File name="include\math\matrix.h" open="0" top="0" tabpos="0">
+		<Cursor position="995" topLine="55" />
+	</File>
+	<File name="include\math\misc.h" open="0" top="0" tabpos="0">
+		<Cursor position="370" topLine="25" />
+	</File>
+	<File name="include\math\types.h" open="0" top="0" tabpos="0">
+		<Cursor position="533" topLine="19" />
+	</File>
+	<File name="include\math\vector.h" open="0" top="0" tabpos="0">
+		<Cursor position="279" topLine="45" />
+	</File>
+	<File name="include\system\config.h" open="0" top="0" tabpos="7">
+		<Cursor position="251" topLine="40" />
+	</File>
+	<File name="include\system\debug.h" open="0" top="0" tabpos="13">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="include\system\log.h" open="0" top="0" tabpos="0">
+		<Cursor position="435" topLine="5" />
+	</File>
+	<File name="include\system\manager.h" open="0" top="0" tabpos="4">
+		<Cursor position="2194" topLine="24" />
+	</File>
+	<File name="include\system\timer.h" open="0" top="0" tabpos="0">
+		<Cursor position="365" topLine="0" />
+	</File>
+	<File name="include\tinyxml\tinyxml.h" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="81" />
+	</File>
+	<File name="include\types\list.h" open="0" top="0" tabpos="0">
+		<Cursor position="1061" topLine="12" />
+	</File>
+	<File name="include\types\messagequeue.h" open="0" top="0" tabpos="8">
+		<Cursor position="802" topLine="3" />
+	</File>
+	<File name="include\types\node.h" open="0" top="0" tabpos="0">
+		<Cursor position="456" topLine="10" />
+	</File>
+	<File name="main.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="598" topLine="7" />
+	</File>
+	<File name="poleaxe.h" open="0" top="0" tabpos="2">
+		<Cursor position="906" topLine="73" />
+	</File>
+	<File name="source\base\object.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="239" topLine="149" />
+	</File>
+	<File name="source\communication\message.cpp" open="0" top="0" tabpos="14">
+		<Cursor position="243" topLine="66" />
+	</File>
+	<File name="source\communication\messagehandler.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="350" topLine="0" />
+	</File>
+	<File name="source\frame\dialogbox.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="336" topLine="0" />
+	</File>
+	<File name="source\frame\window.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="7213" topLine="286" />
+	</File>
+	<File name="source\graphics\allegro.cpp" open="0" top="0" tabpos="13">
+		<Cursor position="513" topLine="0" />
+	</File>
+	<File name="source\graphics\display.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="3524" topLine="146" />
+	</File>
+	<File name="source\graphics\surface.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="7245" topLine="0" />
+	</File>
+	<File name="source\input\keyboard.cpp" open="0" top="0" tabpos="12">
+		<Cursor position="287" topLine="31" />
+	</File>
+	<File name="source\input\mouse.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="552" topLine="111" />
+	</File>
+	<File name="source\system\config.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="554" topLine="0" />
+	</File>
+	<File name="source\system\debug.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="932" topLine="0" />
+	</File>
+	<File name="source\system\log.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="271" topLine="0" />
+	</File>
+	<File name="source\system\manager.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="1332" topLine="0" />
+	</File>
+	<File name="source\system\timer.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="399" topLine="0" />
+	</File>
+	<File name="source\tinyxml\tinystr.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="998" topLine="19" />
+	</File>
+	<File name="source\tinyxml\tinyxml.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1060" topLine="16" />
+	</File>
+	<File name="source\tinyxml\tinyxmlerror.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="970" topLine="0" />
+	</File>
+	<File name="source\tinyxml\tinyxmlparser.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1010" topLine="9" />
+	</File>
+	<File name="source\types\list.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="278" topLine="61" />
+	</File>
+	<File name="source\types\messagequeue.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="226" topLine="111" />
+	</File>
+	<File name="source\types\node.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="626" topLine="0" />
+	</File>
+	<File name="version.h" open="0" top="0" tabpos="15">
+		<Cursor position="814" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

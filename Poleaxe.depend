@@ -1,0 +1,445 @@
+# depslib dependency file v1.0
+1265449036 source:c:\users\jeff\code block projects\poleaxe\main.cpp
+	"poleaxe.h"
+
+1178491284 "
+
+1265438253 c:\users\jeff\code block projects\poleaxe\poleaxe.h
+	<allegro.h>
+	<iostream>
+	<string>
+	<queue>
+	<deque>
+	<vector>
+	<boost/shared_ptr.hpp>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<malloc.h>
+	"./include/base/types.h"
+	"./include/base/object.h"
+	"./include/base/api.h"
+	"./include/tinyxml/tinyxml.h"
+	"./include/math/constants.h"
+	"./include/math/types.h"
+	"./include/math/vector.h"
+	"./include/math/matrix.h"
+	"./include/math/misc.h"
+	"./include/system/config.h"
+	"./include/system/debug.h"
+	"./include/system/element.h"
+	"./include/system/log.h"
+	"./include/system/manager.h"
+	"./include/system/timer.h"
+	"./include/frame/frame.h"
+	"./include/frame/window.h"
+	"./include/frame/dialogbox.h"
+	"./include/communication/message.h"
+	"./include/graphics/allegro.h"
+	"./include/graphics/surface.h"
+	"./include/graphics/display.h"
+	"./include/graphics/bitmap.h"
+	"./include/input/keyboard.h"
+	"./include/input/mouse.h"
+	"./include/types/list.h"
+	"./include/types/node.h"
+	"./include/types/messagequeue.h"
+
+1265438253 /types/messagequeue.h"
+
+1265268524 c:\users\jeff\code block projects\poleaxe\include\base\types.h
+
+1264749910 c:\users\jeff\code block projects\poleaxe\include\base\object.h
+	"../../poleaxe.h"
+
+1265103328 eaxe.h"
+
+1178491284 c:\users\jeff\code block projects\poleaxe\include\tinyxml\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1178491284 c:\users\jeff\code block projects\poleaxe\include\tinyxml\tinystr.h
+	<assert.h>
+	<string.h>
+
+1264661410 
+
+1264661411 c:\users\jeff\code block projects\poleaxe\include\math\constants.h
+	"../../poleaxe.h"
+
+1264923312 c:\users\jeff\code block projects\poleaxe\include\math\types.h
+	"../../poleaxe.h"
+
+1264661410 c:\users\jeff\code block projects\poleaxe\include\math\vector.h
+	"../../poleaxe.h"
+	<math.h>
+
+1264661544 c:\users\jeff\code block projects\poleaxe\include\math\matrix.h
+
+1264661416 c:\users\jeff\code block projects\poleaxe\include\math\misc.h
+	"../../poleaxe.h"
+
+1264665303 c:\users\jeff\code block projects\poleaxe\include\system\config.h
+	"../../poleaxe.h"
+
+1264739974 c:\users\jeff\code block projects\poleaxe\include\system\debug.h
+	"../../poleaxe.h"
+
+1264399116 c:\users\jeff\code block projects\poleaxe\include\system\element.h
+
+1265447340 c:\users\jeff\code block projects\poleaxe\include\communication\message.h
+
+1264739854 c:\users\jeff\code block projects\poleaxe\include\graphics\allegro.h
+	"../../poleaxe.h"
+
+1265101817 c:\users\jeff\code block projects\poleaxe\include\graphics\surface.h
+	"../../poleaxe.h"
+
+1265437704 c:\users\jeff\code block projects\poleaxe\include\graphics\display.h
+	"../../poleaxe.h"
+
+1265438423 c:\users\jeff\code block projects\poleaxe\include\graphics\bitmap.h
+	<allegro.h>
+
+1264665415 >
+
+1265443966 c:\users\jeff\code block projects\poleaxe\include\input\keyboard.h
+	"../../poleaxe.h"
+
+1265448486 c:\users\jeff\code block projects\poleaxe\include\input\mouse.h
+	"../../poleaxe.h"
+
+1264747876 source:c:\users\jeff\code block projects\poleaxe\source\base\object.cpp
+	"../../poleaxe.h"
+
+1265443982 source:c:\users\jeff\code block projects\poleaxe\source\communication\message.cpp
+	"../../poleaxe.h"
+
+1264635453 source:c:\users\jeff\code block projects\poleaxe\source\control\control.cpp
+
+1264635468 source:c:\users\jeff\code block projects\poleaxe\source\frame\frame.cpp
+
+1265103230 source:c:\users\jeff\code block projects\poleaxe\source\graphics\allegro.cpp
+	"../../poleaxe.h"
+
+1265443974 source:c:\users\jeff\code block projects\poleaxe\source\graphics\display.cpp
+	"../../poleaxe.h"
+
+1265102169 source:c:\users\jeff\code block projects\poleaxe\source\graphics\surface.cpp
+	"../../poleaxe.h"
+
+1265102720 source:c:\users\jeff\code block projects\poleaxe\source\input\keyboard.cpp
+	"../../poleaxe.h"
+
+1265101030 source:c:\users\jeff\code block projects\poleaxe\source\input\mouse.cpp
+	"../../poleaxe.h"
+
+1264635489 source:c:\users\jeff\code block projects\poleaxe\source\math\matrix.cpp
+
+1264635502 source:c:\users\jeff\code block projects\poleaxe\source\net\socket.cpp
+
+1264739895 source:c:\users\jeff\code block projects\poleaxe\source\system\config.cpp
+	"../../poleaxe.h"
+
+1265102559 source:c:\users\jeff\code block projects\poleaxe\source\system\debug.cpp
+	"../../poleaxe.h"
+	<stdarg.h>
+
+1264665368 source:c:\users\jeff\code block projects\poleaxe\source\tinyxml\tinystr.cpp
+	"../../poleaxe.h"
+
+1264665381 source:c:\users\jeff\code block projects\poleaxe\source\tinyxml\tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"../../poleaxe.h"
+
+1264665406 source:c:\users\jeff\code block projects\poleaxe\source\tinyxml\tinyxmlerror.cpp
+	"../../poleaxe.h"
+
+1264665415 source:c:\users\jeff\code block projects\poleaxe\source\tinyxml\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"../../poleaxe.h"
+	<windows.h>
+
+1264752423 c:\users\jeff\code block projects\poleaxe\include\system\log.h
+	"../../poleaxe.h"
+
+1264752735 source:c:\users\jeff\code block projects\poleaxe\source\system\log.cpp
+	"../../poleaxe.h"
+
+1265268824 c:\users\jeff\code block projects\poleaxe\include\system\manager.h
+	"../../poleaxe.h"
+
+1265443947 source:c:\users\jeff\code block projects\poleaxe\source\system\manager.cpp
+	"../../poleaxe.h"
+
+1264750044 c:\users\jeff\code block projects\poleaxe\include\frame\frame.h
+	"../../poleaxe.h"
+
+1265268583 c:\users\jeff\code block projects\poleaxe\include\frame\window.h
+
+1265448656 source:c:\users\jeff\code block projects\poleaxe\source\frame\window.cpp
+	"../../poleaxe.h"
+
+1265007166 source:c:\users\jeff\code block projects\poleaxe\source\communication\messagehandler.cpp
+	"../../poleaxe.h"
+
+1265003137 c:\users\jeff\code block projects\poleaxe\include\types\list.h
+	"../../poleaxe.h"
+
+1265008880 c:\users\jeff\code block projects\poleaxe\include\types\node.h
+	"../../poleaxe.h"
+
+1265003107 c:\users\jeff\code block projects\poleaxe\include\types\queue.h
+	"../../poleaxe.h"
+
+1265262834 c:\users\jeff\code block projects\poleaxe\include\types\messagequeue.h
+	"../../poleaxe.h"
+
+1265004431 source:c:\users\jeff\code block projects\poleaxe\source\types\list.cpp
+	"../../poleaxe.h"
+
+1265268681 source:c:\users\jeff\code block projects\poleaxe\source\types\messagequeue.cpp
+	"../../poleaxe.h"
+
+1265008913 source:c:\users\jeff\code block projects\poleaxe\source\types\node.cpp
+	"../../poleaxe.h"
+
+1265268502 c:\users\jeff\code block projects\poleaxe\include\base\api.h
+	"../../poleaxe.h"
+
+1265094114 c:\users\jeff\code block projects\poleaxe\include\frame\dialogbox.h
+	"../../poleaxe.h"
+
+1265093776 source:c:\users\jeff\code block projects\poleaxe\source\frame\dialogbox.cpp
+	"../../poleaxe.h"
+
+1265103097 c:\users\jeff\code block projects\poleaxe\include\system\timer.h
+	"../../poleaxe.h"
+
+1265103328 source:c:\users\jeff\code block projects\poleaxe\source\system\timer.cpp
+	"../../poleaxe.h"
+
+1264747876 source:/home/robert_/Halberd/temp/halx/3/source/base/object.cpp
+	"../../poleaxe.h"
+
+1265449711 /home/robert_/Halberd/temp/halx/3/poleaxe.h
+	<allegro.h>
+	<iostream>
+	<string>
+	<queue>
+	<deque>
+	<vector>
+	<boost/shared_ptr.hpp>
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<malloc.h>
+	"./include/base/types.h"
+	"./include/base/object.h"
+	"./include/base/api.h"
+	"./include/tinyxml/tinyxml.h"
+	"./include/math/constants.h"
+	"./include/math/types.h"
+	"./include/math/vector.h"
+	"./include/math/matrix.h"
+	"./include/math/misc.h"
+	"./include/system/config.h"
+	"./include/system/debug.h"
+	"./include/system/element.h"
+	"./include/system/log.h"
+	"./include/system/manager.h"
+	"./include/system/timer.h"
+	"./include/frame/frame.h"
+	"./include/frame/window.h"
+	"./include/frame/dialogbox.h"
+	"./include/communication/message.h"
+	"./include/graphics/allegro.h"
+	"./include/graphics/surface.h"
+	"./include/graphics/display.h"
+	"./include/graphics/bitmap.h"
+	"./include/input/keyboard.h"
+	"./include/input/mouse.h"
+	"./include/types/list.h"
+	"./include/types/node.h"
+	"./include/types/messagequeue.h"
+
+1265268524 /home/robert_/Halberd/temp/halx/3/include/base/types.h
+
+1264749910 /home/robert_/Halberd/temp/halx/3/include/base/object.h
+	"../../poleaxe.h"
+
+1265268502 /home/robert_/Halberd/temp/halx/3/include/base/api.h
+	"../../poleaxe.h"
+
+1178491284 /home/robert_/Halberd/temp/halx/3/include/tinyxml/tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1178491284 /home/robert_/Halberd/temp/halx/3/include/tinyxml/tinystr.h
+	<assert.h>
+	<string.h>
+
+1264661411 /home/robert_/Halberd/temp/halx/3/include/math/constants.h
+	"../../poleaxe.h"
+
+1264923312 /home/robert_/Halberd/temp/halx/3/include/math/types.h
+	"../../poleaxe.h"
+
+1264661410 /home/robert_/Halberd/temp/halx/3/include/math/vector.h
+	"../../poleaxe.h"
+	<math.h>
+
+1264661544 /home/robert_/Halberd/temp/halx/3/include/math/matrix.h
+
+1264661416 /home/robert_/Halberd/temp/halx/3/include/math/misc.h
+	"../../poleaxe.h"
+
+1264665303 /home/robert_/Halberd/temp/halx/3/include/system/config.h
+	"../../poleaxe.h"
+
+1264739974 /home/robert_/Halberd/temp/halx/3/include/system/debug.h
+	"../../poleaxe.h"
+
+1264399116 /home/robert_/Halberd/temp/halx/3/include/system/element.h
+
+1264752423 /home/robert_/Halberd/temp/halx/3/include/system/log.h
+	"../../poleaxe.h"
+
+1265268824 /home/robert_/Halberd/temp/halx/3/include/system/manager.h
+	"../../poleaxe.h"
+
+1265103097 /home/robert_/Halberd/temp/halx/3/include/system/timer.h
+	"../../poleaxe.h"
+
+1264750044 /home/robert_/Halberd/temp/halx/3/include/frame/frame.h
+	"../../poleaxe.h"
+
+1265268583 /home/robert_/Halberd/temp/halx/3/include/frame/window.h
+
+1265094114 /home/robert_/Halberd/temp/halx/3/include/frame/dialogbox.h
+	"../../poleaxe.h"
+
+1265447340 /home/robert_/Halberd/temp/halx/3/include/communication/message.h
+
+1264739854 /home/robert_/Halberd/temp/halx/3/include/graphics/allegro.h
+	"../../poleaxe.h"
+
+1265101817 /home/robert_/Halberd/temp/halx/3/include/graphics/surface.h
+	"../../poleaxe.h"
+
+1265437704 /home/robert_/Halberd/temp/halx/3/include/graphics/display.h
+	"../../poleaxe.h"
+
+1265438423 /home/robert_/Halberd/temp/halx/3/include/graphics/bitmap.h
+	<allegro.h>
+
+1265443966 /home/robert_/Halberd/temp/halx/3/include/input/keyboard.h
+	"../../poleaxe.h"
+
+1265448486 /home/robert_/Halberd/temp/halx/3/include/input/mouse.h
+	"../../poleaxe.h"
+
+1265003137 /home/robert_/Halberd/temp/halx/3/include/types/list.h
+	"../../poleaxe.h"
+
+1265008880 /home/robert_/Halberd/temp/halx/3/include/types/node.h
+	"../../poleaxe.h"
+
+1265262834 /home/robert_/Halberd/temp/halx/3/include/types/messagequeue.h
+	"../../poleaxe.h"
+
+1265443982 source:/home/robert_/Halberd/temp/halx/3/source/communication/message.cpp
+	"../../poleaxe.h"
+
+1265007166 source:/home/robert_/Halberd/temp/halx/3/source/communication/messagehandler.cpp
+	"../../poleaxe.h"
+
+1264635453 source:/home/robert_/Halberd/temp/halx/3/source/control/control.cpp
+
+1265093776 source:/home/robert_/Halberd/temp/halx/3/source/frame/dialogbox.cpp
+	"../../poleaxe.h"
+
+1264635468 source:/home/robert_/Halberd/temp/halx/3/source/frame/frame.cpp
+
+1265448656 source:/home/robert_/Halberd/temp/halx/3/source/frame/window.cpp
+	"../../poleaxe.h"
+
+1265103230 source:/home/robert_/Halberd/temp/halx/3/source/graphics/allegro.cpp
+	"../../poleaxe.h"
+
+1265443974 source:/home/robert_/Halberd/temp/halx/3/source/graphics/display.cpp
+	"../../poleaxe.h"
+
+1265102169 source:/home/robert_/Halberd/temp/halx/3/source/graphics/surface.cpp
+	"../../poleaxe.h"
+
+1265102720 source:/home/robert_/Halberd/temp/halx/3/source/input/keyboard.cpp
+	"../../poleaxe.h"
+
+1265101030 source:/home/robert_/Halberd/temp/halx/3/source/input/mouse.cpp
+	"../../poleaxe.h"
+
+1264635489 source:/home/robert_/Halberd/temp/halx/3/source/math/matrix.cpp
+
+1264635502 source:/home/robert_/Halberd/temp/halx/3/source/net/socket.cpp
+
+1264739895 source:/home/robert_/Halberd/temp/halx/3/source/system/config.cpp
+	"../../poleaxe.h"
+
+1265102559 source:/home/robert_/Halberd/temp/halx/3/source/system/debug.cpp
+	"../../poleaxe.h"
+	<stdarg.h>
+
+1264752735 source:/home/robert_/Halberd/temp/halx/3/source/system/log.cpp
+	"../../poleaxe.h"
+
+1265443947 source:/home/robert_/Halberd/temp/halx/3/source/system/manager.cpp
+	"../../poleaxe.h"
+
+1265103328 source:/home/robert_/Halberd/temp/halx/3/source/system/timer.cpp
+	"../../poleaxe.h"
+
+1264665368 source:/home/robert_/Halberd/temp/halx/3/source/tinyxml/tinystr.cpp
+	"../../poleaxe.h"
+
+1264665381 source:/home/robert_/Halberd/temp/halx/3/source/tinyxml/tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"../../poleaxe.h"
+
+1264665406 source:/home/robert_/Halberd/temp/halx/3/source/tinyxml/tinyxmlerror.cpp
+	"../../poleaxe.h"
+
+1264665415 source:/home/robert_/Halberd/temp/halx/3/source/tinyxml/tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"../../poleaxe.h"
+	<windows.h>
+
+1265004431 source:/home/robert_/Halberd/temp/halx/3/source/types/list.cpp
+	"../../poleaxe.h"
+
+1265268681 source:/home/robert_/Halberd/temp/halx/3/source/types/messagequeue.cpp
+	"../../poleaxe.h"
+
+1265008913 source:/home/robert_/Halberd/temp/halx/3/source/types/node.cpp
+	"../../poleaxe.h"
+

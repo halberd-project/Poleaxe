@@ -1,0 +1,47 @@
+//
+typedef unsigned long DWORD;
+typedef unsigned short WORD;
+#define LOWORD(a) ((WORD)(a))
+#define HIWORD(a) ((WORD)(((DWORD)(a) >> 16) & 0xFFFF))
+
+
+
+
+
+   /*this->Bmp = load_bitmap(File.c_str(), NULL);        //Use the allegro function to load a BITMAP from a file and setup our surface class
+
+    //If loading an image from the file had failed...
+    if(!this->Bmp)
+    {
+        char errorString[128];
+
+        sprintf(errorString, "Error loading the Bitmap file %s and creating the surface object.", File.c_str());
+        HXERROR(errorString);
+        return;
+    }
+
+    //blit(this->Bmp, screen, 0, 0, 0, 0, 1024, 768);
+
+    LogMessage("Loaded bitmap from file succesfully.");
+    LogMessage("While creating the surface, the width is %d, and the height is %d.", this->width, this->height);
+    Width(Bmp->w);
+    Height(Bmp->h);*/
+    
+    
+    
+    
+    
+    
+        buffer->DrawRect(0, 0, width, height, 0x000000);
+        buffer->DrawFilledRect(1, 1, width-1, height-1, 0xFFFFFF);
+        buffer->DrawFilledRect(width, DROPSHADOW, width+DROPSHADOW, height+DROPSHADOW, 0x000000);
+        buffer->DrawFilledRect(DROPSHADOW, height, width+DROPSHADOW, height+DROPSHADOW, 0x000000);
+        buffer->DrawText(title.c_str(), 6, 6);
+        buffer->DrawHLine(3, 19, width-3, 0x000000);
+        BITMAP *bmp = buffer->AllegroBitmap();
+        LogMessage("%d, %d, %d, %d", x, y, width, height);
+        acquire_screen();
+        acquire_bitmap(bmp);
+        blit(bmp, screen, 0, 0, x, y, width, height);
+        release_bitmap(bmp);
+    release_screen();

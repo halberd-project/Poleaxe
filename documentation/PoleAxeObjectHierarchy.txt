@@ -1,0 +1,77 @@
+Poleaxe Object Hierarchy
+
+	This is a rought draft of a class hierarchy for the Poleaxe graphical user interface sdk for Halberd.  This class system is similiar in concept to the Microsoft
+Foundation Classes in that the class are all related to each other and can contain certain and interface with the other classes.  The system I have designed will change 
+drastically from now until the sdk is complete and finished.  The 'Object' base class is derived into other child classes which are used by the programmer and operating
+system.  
+
+	The first of which is the Frame class, which will have dialog boxes, windows, toolbars, menubars and other such objects derived from it.  The trait that all of these
+classes share is their ability to hold and contain other objects, frames, or controls.
+
+	The second are controls.  These differ from the Frame classes in that these do not inherintly contain other classes, they are essentially child classes that interact 
+with the user, such as buttons, scroll bars, text boxes, etc.
+
+	The last I have for now, and I am sure to come up with a few other top level classes to join these existing three, are the Graphics classes.  These interface with
+the Allegro graphics API.  These are Bitmaps, Surfaces, Colors, Pens, Brushes and other classes and functions that allow the user or programmer to draw elements to surfaces,
+files, or the screen.
+
+	After these I may add other classes for things such as networking, timers and other high level functions and concepts that we can encapsulate in out API.
+	
+	
+	
+Jeff Shoulders
+jeff@pcbeagle.com
+January 24th, 2010
+
+
+-Object
+	-Control
+		-Button
+			-TextButton
+			-GraphicButton
+			-Icon
+		-Slider
+			-HorizontalSlider
+			-VeticalSlider
+		-Text
+		-TextBox
+		-TextArea
+		-CheckBoxArea				// I may want to move these to the Frame class, since they contain other controls...
+			-CheckBox
+		-RadioButtonArea
+			-RadioButton
+		-ComboBoxArea
+			-ComboBoxElement
+		-DropDownBoxArea
+			-DropDownBoxElement
+		-IPAddress
+		-Menu
+			-ChildMenu
+			-MenuElement
+		-PercentBar
+		-ProgressBar
+		-Timer
+	-Frame
+		-ControlBar
+			-ToolBar
+			-StatusBar
+			-MenuBar
+			-TabBar
+		-Dock
+		-Window
+			-Pane
+			-TabbedPane
+		-DialogBox
+			-MessageBox
+			-PrintBox
+			-FileChooseBox
+			-ColorChooseBox
+			-DateTimeBox
+	-Graphics
+		-Bitmap
+		-Surface
+		-Brush
+		-Color
+		-Vertex
+		-Rect
+		-Video

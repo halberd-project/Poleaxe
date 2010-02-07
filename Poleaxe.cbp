@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Poleaxe" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\Poleaxe" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\Poleaxe" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-march=athlon64" />
+			<Add option="-fexpensive-optimizations" />
+			<Add option="-Os" />
+			<Add option="-O3" />
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add option="-L/usr/lib -Wl,--export-dynamic" />
+			<Add library="alleg" />
+			<Add library="boost_system" />
+		</Linker>
+		<Unit filename="include\base\api.h" />
+		<Unit filename="include\base\object.h" />
+		<Unit filename="include\base\types.h" />
+		<Unit filename="include\communication\message.h" />
+		<Unit filename="include\communication\messagehandler.h" />
+		<Unit filename="include\control\control.h" />
+		<Unit filename="include\frame\dialogbox.h" />
+		<Unit filename="include\frame\frame.h" />
+		<Unit filename="include\frame\panel.h" />
+		<Unit filename="include\frame\window.h" />
+		<Unit filename="include\graphics\allegro.h" />
+		<Unit filename="include\graphics\bitmap.h" />
+		<Unit filename="include\graphics\color.h" />
+		<Unit filename="include\graphics\display.h" />
+		<Unit filename="include\graphics\surface.h" />
+		<Unit filename="include\input\keyboard.h" />
+		<Unit filename="include\input\mouse.h" />
+		<Unit filename="include\math\constants.h" />
+		<Unit filename="include\math\matrix.h" />
+		<Unit filename="include\math\misc.h" />
+		<Unit filename="include\math\types.h" />
+		<Unit filename="include\math\vector.h" />
+		<Unit filename="include\math\vertex.h" />
+		<Unit filename="include\system\config.h" />
+		<Unit filename="include\system\debug.h" />
+		<Unit filename="include\system\element.h" />
+		<Unit filename="include\system\log.h" />
+		<Unit filename="include\system\manager.h" />
+		<Unit filename="include\system\timer.h" />
+		<Unit filename="include\tinyxml\tinystr.h" />
+		<Unit filename="include\tinyxml\tinyxml.h" />
+		<Unit filename="include\types\list.h" />
+		<Unit filename="include\types\messagequeue.h" />
+		<Unit filename="include\types\node.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="poleaxe.h" />
+		<Unit filename="source\base\object.cpp" />
+		<Unit filename="source\communication\message.cpp" />
+		<Unit filename="source\communication\messagehandler.cpp" />
+		<Unit filename="source\control\control.cpp" />
+		<Unit filename="source\frame\dialogbox.cpp" />
+		<Unit filename="source\frame\frame.cpp" />
+		<Unit filename="source\frame\window.cpp" />
+		<Unit filename="source\graphics\allegro.cpp" />
+		<Unit filename="source\graphics\display.cpp" />
+		<Unit filename="source\graphics\surface.cpp" />
+		<Unit filename="source\input\keyboard.cpp" />
+		<Unit filename="source\input\mouse.cpp" />
+		<Unit filename="source\math\matrix.cpp" />
+		<Unit filename="source\net\socket.cpp" />
+		<Unit filename="source\system\config.cpp" />
+		<Unit filename="source\system\debug.cpp" />
+		<Unit filename="source\system\log.cpp" />
+		<Unit filename="source\system\manager.cpp" />
+		<Unit filename="source\system\timer.cpp" />
+		<Unit filename="source\tinyxml\tinystr.cpp" />
+		<Unit filename="source\tinyxml\tinyxml.cpp" />
+		<Unit filename="source\tinyxml\tinyxmlerror.cpp" />
+		<Unit filename="source\tinyxml\tinyxmlparser.cpp" />
+		<Unit filename="source\types\list.cpp" />
+		<Unit filename="source\types\messagequeue.cpp" />
+		<Unit filename="source\types\node.cpp" />
+		<Unit filename="version.h">
+			<Option target="Release" />
+		</Unit>
+		<Extensions>
+			<AutoVersioning>
+				<Scheme minor_max="10" build_max="0" rev_max="0" rev_rand_max="10" build_times_to_increment_minor="100" />
+				<Settings autoincrement="1" date_declarations="1" do_auto_increment="0" ask_to_increment="0" language="C++" svn="0" svn_directory="" header_path="version.h" />
+				<Changes_Log show_changes_editor="0" app_title="released version %M.%m.%b of %p" changeslog_path="ChangesLog.txt" />
+			</AutoVersioning>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
