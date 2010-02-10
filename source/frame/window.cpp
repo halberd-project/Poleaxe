@@ -50,7 +50,7 @@ window::~window()
 }
 
 
-void window::Draw()
+void window::OnPaint()
 {
     LogMessage("I am now in the drawing function.");
     buffer->Acquire();
@@ -136,16 +136,8 @@ void window::Draw()
     return;
 }
 
-
-//Drawing function for a basic window
-void window::OnDraw()
-{
-    return;
-}
-
-
 //refreshwindow
-void window::OnHwndPaint(Rect *R)
+void window::OnPaint(Rect *R)
 {
  //   if(R == NULL)
   //      Crt.Blit(this->buffer, 0, 0, X(), Y(), Width()+DROPSHADOW, Height()+DROPSHADOW);
@@ -208,9 +200,9 @@ void window::Y(int _y)
 }
 
 
-//isInisde
+//IsIn
 //Used to determine if the given point is inside this window
-bool window::isInside(int _x, int _y)
+bool window::IsIn(int _x, int _y)
 {
     if((_x > this->x) && (_x < (this->width + this->x)) && (_y > this->y) && (_y < (this->y + this->height)))
     {
@@ -248,7 +240,7 @@ void window::OnMouseDown(int _x, int _y, short buttons)
     else if(buttons)
     {
         this->buffer->DrawFilledCircle(_x, _y, 32, 0x00000000);
-        OnHwndPaint(NULL);
+        OnPaint(NULL);
     }
 }
 
@@ -263,7 +255,7 @@ void window::OnMouseUp(int _x, int _y, short buttons)
     else if(buttons)
     {
         this->buffer->DrawFilledCircle(_x, _y, 32, 0x00000000);
-        OnHwndPaint(NULL);
+        OnPaint(NULL);
     }
 }
 
@@ -277,7 +269,7 @@ void window::OnMouseMove(int Xp, int Yp)
         prevx = Xp;
         prevy = Yp;
 
-        OnHwndPaint(NULL);
+        OnPaint(NULL);
     }
 }
 

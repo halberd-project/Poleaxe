@@ -57,14 +57,14 @@
         window(const std::string& Caption, int X, int Y, int H, int W, uint32_t Opts);
         ~window();
 
-        void Draw();
-        void OnDraw();
+        void OnPaint();
+        void OnPaint(RECT* R);
+
         void OnMouseEnter();
         void OnMouseLeave();
         void OnMouseDown(int _x, int _y, short buttons);                        //Local coordinates
         void OnMouseUp(int _x, int _y, short buttons);
         void OnMouseMove(int _x, int _y);
-        void OnHwndPaint(RECT* R);
         void X(int _x);
         int X();
         void Y(int _y);
@@ -77,8 +77,8 @@
         void Z(long int _z);
         HANDLE Handle();
         void Handle(HANDLE _handle);
-        bool isInside(int _x, int _y);
-        bool isInside(Rect *r);
+        bool IsIn(int _x, int _y);
+        bool IsIn(Rect *r);
         string Title();
         void Title(string _title);
         void Enqueue(Message m);
