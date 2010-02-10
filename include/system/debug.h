@@ -24,8 +24,8 @@
 //Utility functions
 //I will slightly redo these to support variable arguments soon
 void TimeStamp();
-void LogMessage(char *fmt, ...);
-void LogError(char *fmt, ...);
+void LogMessage(const char *fmt, ...);
+void LogError(const char *fmt, ...);
 
 
 //for compatibility

@@ -36,7 +36,7 @@ void TimeStamp()
 
 //LogMessage takes a variable number of arguments, prints a timestamp
 //and then displays the message on the screen, and or a log file.
-void LogMessage(char *fmt, ...)
+void LogMessage(const char *fmt, ...)
 {
     #ifdef __POL_DEBUG_MODE__
 	va_list args;
@@ -55,7 +55,7 @@ void LogMessage(char *fmt, ...)
 
 //LogError takes a variable number of arguments, prints a timestamp
 //and then displays the message on the screen, and or a log file.
-void LogError(char *fmt, ...)
+void LogError(const char *fmt, ...)
 {
     #ifdef __POL_DEBUG_MODE__
 	va_list args;

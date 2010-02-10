@@ -314,7 +314,7 @@
 1264665303 /home/robert_/Halberd/temp/halx/3/include/system/config.h
 	"../../poleaxe.h"
 
-1264739974 /home/robert_/Halberd/temp/halx/3/include/system/debug.h
+1265762286 /home/robert_/Halberd/temp/halx/3/include/system/debug.h
 	"../../poleaxe.h"
 
 1264399116 /home/robert_/Halberd/temp/halx/3/include/system/element.h
@@ -442,4 +442,7 @@
 
 1265008913 source:/home/robert_/Halberd/temp/halx/3/source/types/node.cpp
 	"../../poleaxe.h"
+
+1265449036 source:/home/robert_/Halberd/temp/halx/3/main.cpp
+	"poleaxe.h"
 

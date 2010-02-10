@@ -30,7 +30,7 @@ window::window(const std::string& Caption, int Xp, int Yp, int Width, int Height
     width = Width;
     height = Height;
     buffer = Surface(new surface(Width + DROPSHADOW, Height + DROPSHADOW));
-    buffer->Clear(0xFFFFFF);
+    buffer->Clear(0xFFFF);
     Moving = false;
     this->Flags = Flags;
     char str[128];
@@ -305,7 +305,7 @@ void window::Enqueue(Message m)
 Window CreateHwnd(const std::string& Caption, int X, int Y, int W, int H, int WFlags)
 {
     Window Hwnd(new window(Caption, X, Y, W, H, WFlags));
-   // EventLoop.RegisterHwnd(Hwnd);
+    //EventLoop.RegisterHwnd(Hwnd);
 
     return Hwnd;
 }
